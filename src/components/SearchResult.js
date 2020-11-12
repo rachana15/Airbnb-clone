@@ -16,10 +16,10 @@ function SearchResult({
 }) {
   return (
     <div className="searchresult">
-      {src.constructor == Array ? (
+      {src.constructor === Array ? (
         <Carousel className="searchresult__carousal">
-          {src.map(i => (
-            <img src={i} alt="img" className="searchresult__img" />
+          {src.map((img, i) => (
+            <img src={img} key={i} alt="img" className="searchresult__img" />
           ))}
         </Carousel>
       ) : (
