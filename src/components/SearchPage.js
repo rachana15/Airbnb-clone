@@ -1,7 +1,7 @@
 import React from "react";
 import { Button } from "@material-ui/core";
 import "../style/css/SearchPage.css";
-import Card from "./Card";
+
 import SearchResult from "./SearchResult";
 
 function SearchPage() {

@@ -7,7 +7,7 @@ function Card({ src, title, description, price }) {
   //   console.log("srccccccc", src);
   return (
     <div className="card">
-      {src.constructor == Array ? (
+      {src.constructor === Array ? (
         <Carousel>
           {src.map(i => (
             <img src={i} alt="img" />
