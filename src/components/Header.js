@@ -1,7 +1,7 @@
-import React, { Avatar } from "react";
+import React from "react";
 import "../style/css/Header.css";
 import SearchIcon from "@material-ui/icons/Search";
-import PublicIcon from "@material-ui/icons/Public";
+
 import MenuIcon from "@material-ui/icons/Menu";
 import AccountCircleIcon from "@material-ui/icons/AccountCircle";
 import KeyboardArrowDownIcon from "@material-ui/icons/KeyboardArrowDown";

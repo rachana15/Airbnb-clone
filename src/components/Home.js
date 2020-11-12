@@ -3,7 +3,6 @@ import "../style/css/Home.css";
 import Banner from "./Banner";
 import Card from "./Card";
 import Experience from "./Experience";
-import Footer from "./Footer";
 
 function Home() {
   return (
